@@ -1,0 +1,12 @@
+input:
+  type: redis
+  redis:
+    addr: 127.0.0.1:6379
+    password:
+    list_key: config_test_log
+
+output:
+  type: std
+
+log:
+  port: 65432

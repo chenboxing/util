@@ -1,0 +1,30 @@
+package uconst
+
+//time format
+const (
+	TIME_YYYY_MM_DD_HH_MM_SS_M6TZ = "2006-01-02T15:04:05.000000Z"
+	TIME_YYYY_MM_DD_HH_MM_SS_M9   = "2006-01-02 15:04:05.000000000"
+	TIME_YYYY_MM_DD_HH_MM_SS_M6   = "2006-01-02 15:04:05.000000"
+	TIME_YYYY_MM_DD_HH_MM_SS_M3   = "2006-01-02 15:04:05.000"
+	TIME_YYYY_MM_DD_HH_MM_SS      = "2006-01-02 15:04:05"
+	TIME_YYYY_MM_DD               = "2006-01-02"
+	TIME_YYYYMMDDHHMMSSM9         = "20060102150405000000000"
+	TIME_YYYYMMDDHHMMSSM6         = "20060102150405000000"
+	TIME_YYYYMMDDHHMMSSM3         = "20060102150405000"
+	TIME_YYYYMMDDHHMMSS           = "20060102150405"
+	TIME_YYYYMMDDHHMM             = "200601021504"
+	TIME_YYYYMMDD                 = "20060102"
+)
+
+//channel
+const (
+	CH_WEIXIN  = "weixin"
+	CH_ALIPAY  = "alipay"
+	CH_JDPAY   = "jdpay"
+	CH_YINLIAN = "unionpay"
+	CH_QQPAY   = "qqpay"
+)
+
+const (
+	CanWithdraw = "can_withdraw"
+)

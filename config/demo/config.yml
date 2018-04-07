@@ -1,0 +1,19 @@
+x: abc
+a_b: ab
+y: 123
+
+log:
+  formatter: logstash
+  release:   0.1
+  mode:      develop
+  level:     "debug"
+  port:      12345
+  writer:
+    type:  redis
+    redis:
+      addr: 127.0.0.1:6379
+      password:
+      list_key: config_test_log
+    path:
+
+
